@@ -1,0 +1,71 @@
+.navbar {
+  background-color: #00d1b2;
+}
+
+.imagen{
+  max-width:100%;
+}
+
+a{
+  cursor:pointer;
+}
+.alerta{
+  font-weight:700;
+}
+body{
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modal-contenedor{
+  display:flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.img-carrito{
+  width:200px;
+  padding:20px;
+} 
+.modal-content{
+  background-color: #ffffff;
+}
+.parrafo{
+  font-weight: 900;
+  font-style: italic;
+}
+#precioTotal{
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration: none;
+}
+.boton{
+  opacity:0;
+
+}
+
+.price {
+  font-weight: bold;
+}
+
+.text-center {
+  text-decoration: underline;
+  color: rgb(10, 45, 243);
+  font-weight: 900;
+}
